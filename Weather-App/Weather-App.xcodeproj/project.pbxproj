@@ -17,9 +17,6 @@
 		DEE3EB4527FCB70B00B92FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB4427FCB70B00B92FFE /* ContentView.swift */; };
 		DEE3EB4727FCB70C00B92FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE3EB4627FCB70C00B92FFE /* Assets.xcassets */; };
 		DEE3EB4A27FCB70C00B92FFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEE3EB4927FCB70C00B92FFE /* Preview Assets.xcassets */; };
-		DEE3EB5427FCB70C00B92FFE /* Weather_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB5327FCB70C00B92FFE /* Weather_AppTests.swift */; };
-		DEE3EB5E27FCB70C00B92FFE /* Weather_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB5D27FCB70C00B92FFE /* Weather_AppUITests.swift */; };
-		DEE3EB6027FCB70C00B92FFE /* Weather_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB5F27FCB70C00B92FFE /* Weather_AppUITestsLaunchTests.swift */; };
 		DEE3EB6E27FCB86200B92FFE /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB6D27FCB86200B92FFE /* LocationManager.swift */; };
 		DEE3EB7127FCBAFB00B92FFE /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB7027FCBAFB00B92FFE /* WelcomeView.swift */; };
 		DEE3EB7327FD873600B92FFE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE3EB7227FD873600B92FFE /* LoadingView.swift */; };
@@ -55,10 +52,7 @@
 		DEE3EB4627FCB70C00B92FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEE3EB4927FCB70C00B92FFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DEE3EB4F27FCB70C00B92FFE /* Weather-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE3EB5327FCB70C00B92FFE /* Weather_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppTests.swift; sourceTree = "<group>"; };
 		DEE3EB5927FCB70C00B92FFE /* Weather-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weather-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEE3EB5D27FCB70C00B92FFE /* Weather_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITests.swift; sourceTree = "<group>"; };
-		DEE3EB5F27FCB70C00B92FFE /* Weather_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DEE3EB6D27FCB86200B92FFE /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		DEE3EB7027FCBAFB00B92FFE /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		DEE3EB7227FD873600B92FFE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -101,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				DEE3EB4127FCB70B00B92FFE /* Weather-App */,
-				DEE3EB5227FCB70C00B92FFE /* Weather-AppTests */,
-				DEE3EB5C27FCB70C00B92FFE /* Weather-AppUITests */,
 				DEE3EB4027FCB70B00B92FFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,23 +131,6 @@
 				DEB73AAB27FDC9D300A2A662 /* weatherData.json */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DEE3EB5227FCB70C00B92FFE /* Weather-AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				DEE3EB5327FCB70C00B92FFE /* Weather_AppTests.swift */,
-			);
-			path = "Weather-AppTests";
-			sourceTree = "<group>";
-		};
-		DEE3EB5C27FCB70C00B92FFE /* Weather-AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DEE3EB5D27FCB70C00B92FFE /* Weather_AppUITests.swift */,
-				DEE3EB5F27FCB70C00B92FFE /* Weather_AppUITestsLaunchTests.swift */,
-			);
-			path = "Weather-AppUITests";
 			sourceTree = "<group>";
 		};
 		DEE3EB6C27FCB82900B92FFE /* Managers */ = {
@@ -326,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE3EB5427FCB70C00B92FFE /* Weather_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEE3EB5E27FCB70C00B92FFE /* Weather_AppUITests.swift in Sources */,
-				DEE3EB6027FCB70C00B92FFE /* Weather_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
